@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def splitem(line):
     s = line.split(' ')
     left = s[0]
@@ -27,8 +26,5 @@ def main():
 
     print(similarity)
 
-
-
 if __name__=="__main__":
-
     main()
