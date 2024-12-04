@@ -1,4 +1,3 @@
-
 import re
 def get_mul(string): 
     nums = re.findall(r'\d+', string)
